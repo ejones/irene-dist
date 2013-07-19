@@ -1,3 +1,28 @@
+2013-07-19
+----------
+- make sure other script types trigger live updates
+
+2013-07-10
+----------
+- fix exceptions caused by parsing empty HTML documents
+- improved handling of errors, esp. in .soy & .css files
+- Lighten some of the annoying and less helpful Closure warnings
+- Inline unknown script types with src attrs into HTML
+- Fix a null pointer error on empty HTML bodies
+- add directories to the watch to find new files
+
+2013-05-02
+----------
+- now ignores non-JS HTML script tags
+- fixes a bug where terminal escape sequences and extraneous characters would
+  show up in the heads-up display for LESS "Unrecognized input" errors
+
+2013-04-17
+----------
+- adds a new "update" mode that streams JavaScript "diffs" that can be used by
+  a server to live-reload/update a page (usually in development)
+- adds a heads-up display of compilation errors on the page
+
 2013-04-09
 ----------
 - adds support for LESS CSS
